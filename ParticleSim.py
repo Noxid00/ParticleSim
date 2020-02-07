@@ -175,7 +175,7 @@ def update_particles(int):
         CoM_y /= m_tot
         
     #print iteration number
-    print(int)
+    #print(int)
     #clear scatter and  reset axis
     axis.cla()
     axis.set_xlim(left = low_pos*pos_scale, right = high_pos*pos_scale)
